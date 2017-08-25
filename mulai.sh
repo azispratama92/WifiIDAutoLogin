@@ -10,7 +10,7 @@ echo =====================================================
 echo Menghubungkan Komputer dengan Jaringan Wifi ID
 echo ===================================================== 
 sleep 01
-nmcli con up LenovoA319
+nmcli con up @wifi-id
 sleep 01
 echo ===================================================== 
 echo Autentifikasi Pengguna ........
@@ -21,4 +21,4 @@ echo =====================================================
 echo Melakukan Ping otomatis ke URL wifi.id
 echo =====================================================
 echo                                                      
-ping 127.0.0.1
+ping google.com
