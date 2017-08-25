@@ -11,7 +11,7 @@ passwordStr = '11034727408335'
 
 browser = webdriver.Chrome()
 # Ganti alamat URL wifi ID landing page, sesuai dengan alamat mac Anda: 
-browser.get(('http://welcome2.wifi.id/wifi.id-new/default/?gw_id=WAG-D4-KBU&client_mac=08:3e:8e:27:0a:9d&wlan=SMNSMN00053/TLK-WI329744-0002:@wifi.id&sessionid=0A00FFFF7802E0A7-5997AC79&redirect=http://wifi.id/'))
+browser.get(('http://welcome2.wifi.id/wifi.id-new/default/?gw_id=WAG-D4-KBU&client_mac=xx:xx:xx:xx:xx:xx&wlan=SMNSMN00053/TLK-WI329744-0002:@wifi.id&sessionid=0A00FFFF7802E0A7-5997AC79&redirect=http://wifi.id/'))
 
 # baris nomor 16 ke bawah berikut tidak perlu dimodifikasi (biarkan apa adanya): 
 
